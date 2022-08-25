@@ -1,6 +1,4 @@
 from sklearn.preprocessing import MinMaxScaler
-import seaborn as sns
-import matplotlib.pyplot as plt
 import pandas as pd
 minmax_scaler = MinMaxScaler()
 

@@ -12,7 +12,7 @@ def impute_normal_dist_cols(df, cols):
 
 def impute_skewed(df, cols):
     for x in cols:
-        df[x] = df[x].fillna(df[x].median())
+        df.loc[x] = df[x].fillna(df[x].median())
     return df
 
 

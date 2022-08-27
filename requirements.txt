@@ -2,3 +2,11 @@ pandas>=1.1.0
 textblob>=0.15.3
 scikit-learn>=1.0.0
 matplotlib>=1.0.0
+streamlit
+mysql
+pickle
+sklearn
+seaborn
+matplotlib
+missingno
+plotly
